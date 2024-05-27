@@ -16,10 +16,10 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='https://crud-app-iota-inky.vercel.app/' element={<CrudApp/>}/>
-          <Route path='https://crud-app-iota-inky.vercel.app/all' element={<AllUsers/>}/>
-          <Route path='https://crud-app-iota-inky.vercel.app/add' element={<AddUser/>}/>
-          <Route path='https://crud-app-iota-inky.vercel.app/edit/:id' element={<EditUser/>}/>
+          <Route path='crud-app-frontend-ochre.vercel.app' element={<CrudApp/>}/>
+          <Route path='crud-app-frontend-ochre.vercel.app/all' element={<AllUsers/>}/>
+          <Route path='crud-app-frontend-ochre.vercel.app/add' element={<AddUser/>}/>
+          <Route path='crud-app-frontend-ochre.vercel.app/edit/:id' element={<EditUser/>}/>
         </Routes>
       </BrowserRouter>
     </div>
